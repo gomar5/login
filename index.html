@@ -8,83 +8,85 @@
 </head>
 <body>
   
-  <div class="wrapper">
+  <div class="contenedor">
+    
+    <div class="wrapper">
 
-    <!--sign up-->
-    <div class="form-wrapper sign-up">
+      <!--sign up-->
+      <div class="form-wrapper sign-up">
   
-      <form action="">
+        <form action="">
 
-        <img src="https://www.cotemag.edu.co/file/system/logo5.png" class="imagen sign-up" alt="Imagen">
+          <img src="https://www.cotemag.edu.co/file/system/logo5.png" class="imagen sign-up" alt="Imagen">
 
-        <h2>Sign Up</h2>
+          <h2>Registro</h2>
 
-        <div class="inputs">
-          <input type="text" required>
-          <label for="">Usuario</label>
-        </div>
+          <div class="inputs">
+            <input type="text" required>
+            <label for="">Usuario</label>
+          </div>
 
           <div class="inputs">
             <input type="email" required>
             <label for="">Correo</label> 
-        </div>
+          </div>
 
-        <div class="inputs">
-          <input type="password" required>
-          <label for="">Contraseña</label>    
-        </div>
+          <div class="inputs">
+            <input type="password" required>
+            <label for="">Contraseña</label>    
+          </div>
+        
+          <div class="inputs">
+            <input type="password" required>
+            <label for="">Confirmar contraseña</label>    
+          </div>
 
-        <div class="inputs">
-          <input type="password" required>
-          <label for="">Confirmar contraseña</label>    
-        </div>
+          <div>
+            <button type="submit" class="btn">Registrar</button>
+          </div>
 
-        <div>
-          <button type="submit" class="btn">Registrar</button>
-        </div>
+          <div class="sign-link">
+            <p>¿tienes una cuenta? <a href="#" class="signin-link">Ingresar</a></p>
+          </div>
 
-        <div class="sign-link">
-          <p>tienes una cuenta? <a href="#" class="signin-link">Ingresar</a></p>
-        </div>
+        </form>
+      </div>
 
-      </form>
+      <!--login-->
+      <div class="form-wrapper sign-in">
+        <form action="">
+
+          <img src="https://www.cotemag.edu.co/file/system/logo5.png" class="imagen sign-in" alt="imagen">
+
+          <h2>Inicio de sesión</h2>
+
+          <div class="inputs">
+            <input type="text" required>
+            <label for="">Usuario</label>    
+          </div>
+
+          <div class="inputs">
+            <input type="password" required>
+            <label for="">Contraseña</label>    
+          </div>
+
+          <div class="forgot-password">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+
+          <div>
+            <button type="submit" class="btn">Ingresar</button>
+          </div>
+
+          <div class="sign-link">
+            <p>¿No tienes una cuenta? <a href="#" class="signup-link">Registrar</a></p>
+          </div>
+
+        </form>
+      </div>
+
     </div>
-
-    <!--login-->
-    <div class="form-wrapper sign-in">
-      <form action="">
-
-        <img src="https://www.cotemag.edu.co/file/system/logo5.png" class="imagen sign-in" alt="imagen">
-
-        <h2>login</h2>
-
-        <div class="inputs">
-          <input type="text" required>
-          <label for="">Usuario</label>    
-        </div>
-
-        <div class="inputs">
-          <input type="password" required>
-          <label for="">Contraseña</label>    
-        </div>
-
-        <div class="forgot-password">
-          <a href="#">Olvidaste tu contraseña?</a>
-        </div>
-
-        <div>
-          <button type="submit" class="btn">Ingresar</button>
-        </div>
-
-        <div class="sign-link">
-          <p>No tienes una cuenta? <a href="#" class="signup-link">Registrar</a></p>
-        </div>
-
-      </form>
-    </div>
-
   </div>
-
   <script src="main.js"></script>
 </body>
 </html>
