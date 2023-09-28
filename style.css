@@ -238,11 +238,8 @@ h2 {
 
 @media (max-width: 700px) {
   .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 90vw;
-    height: 70vh;
+    height: 75vh;
   }
 
 
@@ -324,10 +321,15 @@ h2 {
       transform: translateX(0)
     }
   }
-  
+
 }
 
 @media (max-width: 350px) {
+
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
 
   .inputs {
     width: 100%;
