@@ -324,10 +324,7 @@ h2 {
       transform: translateX(0)
     }
   }
-
-  .form-wrapper.sign-up{
-    display:;
-  }
+  
 }
 
 @media (max-width: 350px) {
