@@ -25,11 +25,61 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-image: url(https://images.wallpaperscraft.com/image/single/pool_skyscraper_hotel_124522_2560x1440.jpg);
+  /*background-image: url(https://images.wallpaperscraft.com/image/single/pool_skyscraper_hotel_124522_2560x1440.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+  transition: 10s linear;
+  animation-duration: 15s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  animation-name: img-background;
+}
+
+@keyframes img-background{
+  0%{
+    background-image: url(https://images.wallpaperscraft.com/image/single/pool_skyscraper_hotel_124522_2560x1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  20%{
+    background-image: url(https://images.wallpaperscraft.com/image/single/tropical_resort_palm_trees_90876_2560x1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  40%{
+    background-image: url(https://images.wallpaperscraft.com/image/single/maldives_tropical_resort_90624_2560x1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  60%{
+    background-image: url(https://images.wallpaperscraft.com/image/single/maldives_tropical_beach_90628_2560x1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  80%{
+    background-image: url(https://images.wallpaperscraft.com/image/single/tropical_resort_beach_90894_2560x1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  100%{
+    background-image: url(https://images.wallpaperscraft.com/image/single/tropical_resort_palm_90879_2560x1440.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 .wrapper {
@@ -347,12 +397,10 @@ h2 {
 
 
   .imagen.imagen.sign-in{
-     left: 60px;
+    left: 60px;
   }
 
   .imagen.imagen.sign-up {
     left: 40px;
   }
-
-
 }
